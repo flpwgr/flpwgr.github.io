@@ -25,13 +25,22 @@ section {
 
 .social {
   img {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
     padding: 5px;
     height: 40px;
     display: block;
   }
 }
 
+$blur: 3px;
+$spread: 4px;
 .profile {
+  box-shadow: 2px 2px $blur $spread rgba(0,0,0,0.2),
+             -2px -2px $blur $spread rgba(0,0,0,0.2), 
+             -2px 2px $blur $spread rgba(0,0,0,0.2),
+              2px -2px $blur $spread rgba(0,0,0,0.2);
+  border-radius: 4px;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.6);
 }
