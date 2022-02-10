@@ -8,6 +8,6 @@
 	"devDependencies": {
 		"browser-sync": "^2.18.13",
 		"concurrently": "^3.5.0",
-		"node-sass": "^4.5.3"
+		"node-sass": "^7.0.0"
 	}
 }
